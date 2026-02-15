@@ -1,1 +1,40 @@
 /* Add CSS Styling */
+
+/*Solution with Type Selectors*/
+/*
+div p {
+	color: red;
+	background-color: yellow;
+	font-size: 20px;
+	text-align: center;
+}
+*/
+
+/*Solution with Class Selectors*/
+/*
+.container .text {
+	color: rgb(255,0,0);
+	background-color: rgb(255,255,0);
+	font-size: 20px;
+	text-align: center;
+}
+*/
+
+/*Solution 1 with both Type and Class Selectors*/
+/*
+div .text {
+	color: #FF0000;
+	background-color: #FFFF00;
+	font-size: 20px;
+	text-align: center;
+}
+*/
+
+/*Solution 2 with both Type and Class Selectors*/
+
+.container p {
+	color: hsl(0, 100%, 50%);
+	background-color: hsl(60, 100%, 50%);
+	font-size: 20px;
+	text-align: center;
+}
